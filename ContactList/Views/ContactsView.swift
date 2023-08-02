@@ -16,13 +16,9 @@ struct ContactsView: View {
                 NavigationLink(destination: ContactDetailsView(person: person)) {
                     ContactRowView(person: person)
                 }
-                
             }
             .listStyle(.plain)
-            
-            
         }
-        
     }
 
 

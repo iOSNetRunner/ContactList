@@ -35,6 +35,7 @@ struct ContactDetailsView: View {
             }
         }
         .navigationTitle("\(person.fullName)")
+       
     }
 }
 
